@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  html,
+  body,
+  #root {
+    @apply h-full;
+  }
+  body {
+    @apply bg-[url('https://media.wired.com/photos/6081f4280c9b5877078878e2/master/pass/business_plaintext_apple_1313768378.jpg')];
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}
